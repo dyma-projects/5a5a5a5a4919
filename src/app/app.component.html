@@ -1,4 +1,11 @@
 <!-- mettez ici les deux components -->
-
-
-
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <app-liaison title="toto" (click)='liaisonClickHandler($event)' (survol)='liaisonSurvolHandler($event)'></app-liaison>
+    </div>
+    <div class="col-6">
+      <app-directive></app-directive>
+    </div>
+  </div>
+</div>

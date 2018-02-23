@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  liaisonClickHandler(event: any) {
+    console.log('click');
+  }
+
+  liaisonSurvolHandler(survolMessage: string) {
+    console.log(survolMessage);
+  }
 }
